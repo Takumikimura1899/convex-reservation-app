@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Convex Reservation App
 
-## Getting Started
+## 技術スタック
 
-First, run the development server:
+- Next.js
+- Convex
+- TailwindCSS
+- Bun
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## アプリケーションの概要
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 予約システム
+- ユーザーは日付を指定して予約を登録できます
+- 予約はリアルタイムで同期されます
+- 管理者はログインして予約を確認できます
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Convex
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 概要
 
-## Learn More
+Convex は、リアルタイムアプリケーション開発に特化した Backend-as-a-Service (BaaS) です。データベース、リアルタイムクエリ、サーバーレス関数を統合し、開発者がフロントエンドに集中できる環境を提供します。React や Next.js との親和性が高く、リアルタイム同期を容易に実装できます。
 
-To learn more about Next.js, take a look at the following resources:
+### memo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- DBは開発用と本番用がデフォルトで用意されます。どちらもクラウド上に存在するため、別途用意する必要はなさそうです。
