@@ -6,6 +6,7 @@
 - Convex
 - TailwindCSS
 - Bun
+- Clerk
 
 ## アプリケーションの概要
 

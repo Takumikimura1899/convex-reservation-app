@@ -11,6 +11,8 @@
     "format": "biome format --write"
   },
   "dependencies": {
+    "@clerk/clerk-react": "^5.56.2",
+    "@clerk/nextjs": "^6.35.4",
     "convex": "^1.29.3",
     "next": "16.0.3",
     "react": "19.2.0",
